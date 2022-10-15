@@ -8,6 +8,12 @@
 
 ### Visualize lidar point-cloud (ID_S1_EX2)
 
+Show 6 examples of vehicle in the following images.  
+In the center of the image, line of the vehicle is shown and right side of the vehicle line, truck like vehicle is shown.  
+Point cloud image don't have the detail of the vehicle, but this image help to find the vehicle shape like front-side or rear-side.  
+I think it will be good help for self driving technology.
+
+
 ![range_image_s1_ex2](/outputs/step1/ID_S1_EX2_range_image.png)  
 ![point_cloud_s1_ex2](/outputs/step1/ID_S1_EX2_point_cloud.png) 
  
