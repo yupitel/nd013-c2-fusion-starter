@@ -13,6 +13,19 @@ In the center of the image, line of the vehicle is shown and right side of the v
 Point cloud image don't have the detail of the vehicle, but this image help to find the vehicle shape like front-side or rear-side.  
 I think it will be good help for self driving technology.
 
+Additional description:  
+* Far away vs. very close
+  * The number of the point in the close become bigger than that of far away.
+  * For this reason, we can know the shape of the near vehicle with point cloud only.
+* Standard vehicles vs. unusual ones (e.g. with trailers attached)
+  * At the close area, we can recognize both of the vehicle.
+  * At the far away area, it is difficult to recognize the vehicle with shaple.
+* Large numbers of 3d points vs. only few points
+  * If there are enough 3d points like lidar, we can use data like camera image.
+  * If there are few points only like radar, it's difficult to use data like camera image.
+* Oncoming traffic vs. same driving direction
+  * We can recognize the vehicle direction with the shape of front/rear side.
+  * By this, we can know the both of the dirrection with this data.
 
 ![range_image_s1_ex2](/outputs/step1/ID_S1_EX2_range_image.png)  
 ![point_cloud_s1_ex2](/outputs/step1/ID_S1_EX2_point_cloud.png) 
