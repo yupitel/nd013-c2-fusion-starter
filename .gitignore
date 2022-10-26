@@ -2,3 +2,4 @@ dataset/
 results/
 tools/objdet_models/darknet/
 tools/objdet_models/resnet/
+__pycache__
