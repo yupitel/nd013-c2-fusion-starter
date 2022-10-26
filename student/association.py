@@ -139,7 +139,7 @@ class Association:
         H = meas.sensor.get_H(track.x)
         gamma = KF.gamma(track, meas)
         S = KF.S(track, meas, H)
-        MHD = gamma.transpose() * np.linalg.inv(S) * gamma # Mahalanobis distance formula
+        MHD = np.sqrt(gamma.transpose() * np.linalg.inv(S) * gamma) # Mahalanobis distance formula
         return MHD        
         
 
